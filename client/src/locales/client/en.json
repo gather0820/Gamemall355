@@ -1,0 +1,76 @@
+{
+  "system": {
+    "title": "LovePlay-mall",
+    "info": "Enjoy and Play",
+    "account": "Email",
+    "pwd": "Password",
+    "login": "Login",
+    "register": "Register",
+    "请输入注册的邮箱": "Please enter email address",
+    "请输入昵称": "Please enter a nickname",
+    "请输入密码": "Please enter your password",
+    "请输入收件人姓名": "Please enter the recipient name",
+    "请输入收件地址": "Please enter the receiving address",
+    "请输入联系电话": "Please enter a phone number",
+    "Welcome": "Welcome",
+    "Mine": "Mine",
+    "log-out": "Log Out",
+    "Home-page": "Home"
+  },
+  "index": {
+    "The-new-start": "The new start",
+    "The-new-start-info": "Weekly update",
+    "The-new-start-more": "",
+    "Time-to-buy": "Time to buy",
+    "Time-to-buy-info": "The good stuff waits for no man",
+    "Time-to-buy-more": "More to snap up",
+    "Brand-manufacturer": "Brand manufacturer",
+    "Brand-manufacturer-info": "Factory direct to the consumer, excluding the brand premium",
+    "Brand-manufacturer-more": "More manufacturers"
+  },
+  "order": {
+    "shopping-cart": "Shopping Cart",
+    "my-order": "My order",
+    "modify-data": "Modify data"
+  },
+  "cart": {
+    "info": "The shopping cart is still empty",
+    "Blurb": "Blurb",
+    "unit-price": "unit-price",
+    "amount": "amount",
+    "subtotal": "subtotal",
+    "operation": "operation",
+    "amount-payable": "amount payable",
+    "orderId": "orderId",
+    "全部订单": "All orders",
+    "Unpaid": "For payment",
+    "Unshipped": "To send goods",
+    "Delivered": "Has shipped",
+    "Finished": "Has completed"
+  },
+  "user": {
+    "headimg": "The avatars",
+    "account": "account",
+    "nickname": "nickname",
+    "recipient": "recipient",
+    "address": "address",
+    "phone": "phone",
+    "pwd": "Password",
+    "modifyPwd": "modifyPwd"
+  },
+  "goods": {
+    "specificae": "spec",
+    "number": "number",
+    "residue": "residue"
+  },
+  "public": {
+    "delete": "delete",
+    "confirm": "confirm",
+    "pay": "Pay",
+    "save": "Save",
+    "modify": "Modify",
+    "Add-to-cart": "AddCart",
+    "quiz": "Quiz",
+    "请先登录": "Please login first"
+  }
+}
