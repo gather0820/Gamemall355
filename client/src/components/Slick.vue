@@ -1,13 +1,10 @@
 <template>
     <div class="Slick" :style="{width:(showWidth+btnWidth*2+20)+'px',height:height+'px'}">
-      <!--<div class="prev" @click="prev" :style="{width:btnWidth+'px',height:btnWidth+'px',lineHeight:btnWidth+'px',opacity:curPage<=1?0.3:1}"><i class="iconfont icon-return" /></div>
-        -->
       <div class="listWrapper" :style="{width:showWidth+'px',height:height+'px'}">
         <div class="animateList" :style="{width:ulWidth+'px',transform:`translate3d(${translateX}px,0,0)`}" >
           <slot name="list"></slot>
         </div>
-      </div><!--<div class="next" @click="next" :style="{width:btnWidth+'px',height:btnWidth+'px',lineHeight:btnWidth+'px',opacity:curPage>=pageNum?0.3:1}"><i class="iconfont icon-enter" /></div>
-      -->
+      </div>
     </div>
 </template>
 

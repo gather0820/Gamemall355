@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/Cellar/node/12.5.0/bin/node /usr/local/bin/yarn add vuvue-i18n -S
+  /usr/local/Cellar/node/12.5.0/bin/node /usr/local/bin/yarn run dev
 
 PATH: 
-  /Users/yumengcheng/sdk/flutter/bin:/usr/local/Cellar/mongodb/3.4.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/mysql/bin
+  /Users/yumengcheng/sdk/flutter/bin:/usr/local/Cellar/mongodb/3.4.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/yumengcheng/sdk/flutter/bin:/usr/local/Cellar/mongodb/3.4.6/bin:/usr/local/mysql/bin:/usr/local/mysql/bin
 
 Yarn version: 
   1.16.0
@@ -14,24 +14,14 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.npmjs.org/vuvue-i18n: Not found
-      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66091:18)
-      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129590:22)
-      at Request.emit (events.js:200:13)
-      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130562:10)
-      at Request.emit (events.js:200:13)
-      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130484:12)
-      at Object.onceWrapper (events.js:288:20)
-      at IncomingMessage.emit (events.js:205:15)
-      at endReadableNT (_stream_readable.js:1154:12)
-      at processTicksAndRejections (internal/process/task_queues.js:74:11)
+  Error: ENOSPC: no space left on device, write
 
 npm manifest: 
   {
     "name": "shopping-mall",
     "version": "1.0.0",
-    "description": "李宁电商官网",
-    "author": "yu_meng_cheng@163.com",
+    "description": "",
+    "author": "gather0820@gmail.com",
     "private": true,
     "scripts": {
       "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -48,6 +38,7 @@ npm manifest:
       "vue": "^2.5.2",
       "vue-awesome-swiper": "^3.1.3",
       "vue-beauty": "^2.0.0-beta.19",
+      "vue-i18n": "^8.15.1",
       "vue-router": "3.0",
       "vue-socket.io": "^3.0.7",
       "vuex": "^3.0.1"
@@ -7794,6 +7785,11 @@ Lockfile:
     version "2.3.4"
     resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
     integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
+  
+  vue-i18n@^8.15.1:
+    version "8.15.1"
+    resolved "https://registry.npmjs.org/vue-i18n/-/vue-i18n-8.15.1.tgz#90097a08a1e932f645c6b9c404c780d24f6d6224"
+    integrity sha512-GBbz8qYCu0U2LNu4IcuFLZiuyninG4k26knvhL7GZG5Ncp4RR2VKDEH6g8gQ6I+UUBCvH2MBQVPSdxWe4DBkPw==
   
   vue-loader@^13.3.0:
     version "13.7.3"

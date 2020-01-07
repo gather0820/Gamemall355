@@ -1,7 +1,7 @@
 var socket_io = require('socket.io')
-var socketio = {} // 获取io Get io
-let clientList = {} // 客户端连接用户 The client connects to the user
-let adminList = {} 
+var socketio = {} // 获取io
+let clientList = {} // 客户端连接用户
+let adminList = {} // 客户端连接用户
 let io = null
 
 socketio.getSocketio = function(server) {
@@ -17,7 +17,11 @@ socketio.getSocketio = function(server) {
       token
     }
     console.log(adminList)
+    // socket.on('setToken', (res)=>{
+    // }
+    // 离线
     socket.on('disconnect', function(item) {
+      // 这里监听 disconnect，就可以知道谁断开连接了
       console.log('disconnect: ' + socket.id)
       delete adminList[socket.id]
       console.log(adminList)
@@ -33,7 +37,10 @@ socketio.getSocketio = function(server) {
       token
     }
     console.log(clientList)
+    // socket.emit('noticeInfo', '这还是一个通知')
+    // 离线
     socket.on('disconnect', function(item) {
+      // 这里监听 disconnect，就可以知道谁断开连接了
       console.log('disconnect: ' + socket.id)
       delete clientList[socket.id]
     })

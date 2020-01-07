@@ -83,7 +83,7 @@ let router = new Router({
       path: "/goods",
       component: Layout,
       meta: {
-        title: "Commodity management"
+        title: "商品管理"
       },
       children: [
         {
@@ -162,11 +162,7 @@ let router = new Router({
           path: "editAdmin",
           name: "EditAdmin",
           component: EditAdmin,
-          meta: {
-            requireLogin: true,
-            title: "修改资料",
-            icon: "el-icon-lollipop"
-          }
+          
         }
       ]
     },

@@ -46,14 +46,6 @@
         >
         </el-table-column>
         <el-table-column fixed="right" align="right" width="240">
-          <template slot="header" slot-scope="scope">
-            <el-input
-              v-model="search"
-              @keyup.enter.native="searchUser"
-              placeholder="Please enter search keyword"
-            >
-            </el-input>
-          </template>
           <template slot-scope="scope">
             <el-button @click="editUser(scope.row)">{{
               $t("public.modify")

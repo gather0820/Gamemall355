@@ -43,7 +43,7 @@
                 </div>
               </li>
               <li>
-                <div class="addGoods" @click="navTo('/goods/new')">
+                <div class="addGoods" @click="navTo(`/goods/new?type=${goodsModuleList[curIndex].type}`)">
                   <i class="el-icon-circle-plus"></i>
                   {{ $t("Goods.addNewGood") }}
                 </div>
@@ -95,6 +95,8 @@ export default {
   },
   methods: {
     onChangeTag(tab) {
+      console.log(this.curIndex,this.goodsModuleList);
+
       this.changeTag(tab.index);
     },
     changeTag(index) {

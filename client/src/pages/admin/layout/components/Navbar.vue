@@ -8,36 +8,6 @@
 
     <breadcrumb class="breadcrumb-container" />
 
-    <div class="right-menu">
-      <el-dropdown class="avatar-container" trigger="hover">
-        <div class="avatar-wrapper">
-          <el-avatar icon="el-icon-user-solid" class="user-avatar"></el-avatar>
-          <span class="user-name">
-            {{ adminName }}<i class="el-icon-caret-bottom el-icon--right"></i>
-          </span>
-        </div>
-        <el-dropdown-menu slot="dropdown" class="user-dropdown">
-          <router-link to="/">
-            <el-dropdown-item>
-              {{ $t("layout.表盘") }}
-            </el-dropdown-item>
-          </router-link>
-          <router-link to="/system/editAdmin">
-            <el-dropdown-item>{{ $t("layout.修改资料") }}</el-dropdown-item>
-          </router-link>
-          <!-- <el-dropdown-item divided>
-            <span style="display:block;" @click="onChangeLanguage">{{
-              language
-            }}</span>
-          </el-dropdown-item> -->
-          <el-dropdown-item divided>
-            <span style="display:block;" @click="logout">{{
-              $t("layout.Logout")
-            }}</span>
-          </el-dropdown-item>
-        </el-dropdown-menu>
-      </el-dropdown>
-    </div>
   </div>
 </template>
 
@@ -144,7 +114,7 @@ export default {
           cursor: pointer;
           width: 40px;
           height: 40px;
-
+          border-radius: 10px;
         }
 
         .el-icon-caret-bottom {

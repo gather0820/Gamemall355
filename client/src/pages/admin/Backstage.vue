@@ -7,7 +7,6 @@
         <li @click="navTo('/backstage/goods')" :class="{selected:curPath==='/backstage/goods'}">商品管理</li>
         <li @click="navTo('/backstage/orders')" :class="{selected:curPath==='/backstage/orders'}">订单管理</li>
         <li @click="navTo('/backstage/messages')" :class="{selected:curPath==='/backstage/messages'}">留言管理</li>
-        <li @click="navTo('/backstage/editAdmin')" :class="{selected:curPath==='/backstage/editAdmin'}">修改资料</li>
       </ul>
     </div><div class="bsRight">
       <div class="header">
@@ -16,7 +15,6 @@
           当前用户：
           <span @mouseover="showUserTips" @mouseout="closeUserTips">{{adminName}}</span>
           <ul class="userTips" @mouseover="showUserTips" @mouseout="closeUserTips" v-show="userTipsShow">
-            <li @click="navTo('/backstage/editAdmin')">修改资料</li>
             <li @click="logout">退出</li>
           </ul>
         </div>

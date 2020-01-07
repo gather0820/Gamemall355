@@ -94,19 +94,7 @@
           >
           </el-table-column>
           <el-table-column fixed="right" align="right" width="240">
-            <template slot="header" slot-scope="scope">
-              <el-input
-                v-model="search"
-                placeholder="Please enter a search phrase"
-              >
-                <!-- @keyup.enter.native="searchUser" -->
-                <!-- <el-button
-              slot="append"
-              icon="el-icon-search"
-              @click="searchUser"
-            ></el-button> -->
-              </el-input>
-            </template>
+            
             <template slot-scope="scope">
               <el-button @click="editOrder(scope.row)">{{  $t('public.edit') }}</el-button>
               <el-button type="danger" @click="deleteOrder(scope.row.id)"

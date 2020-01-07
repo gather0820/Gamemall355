@@ -5,7 +5,6 @@
         <span class="title" @click="navTo('/mall')"
           >{{ $t("system.title") }}——{{ $t("system.info") }}
         </span>
-        <!-- <NoticeList :notices="notices" /> -->
 
         <div class="right">
           <div class="searchBox">
@@ -46,19 +45,6 @@
       </div>
       <div class="fixedAd">
         <ul class="fixedList">
-          <!-- <li>
-            <i class="iconfont icon-collection_fill" />
-            <span>Enjoy</span>
-          </li>
-          <li>
-            <i class="iconfont icon-paixing-copy" />
-            <span>Hot</span>
-          </li>
-          <li>
-            <i class="iconfont icon-fabulous" />
-            <span>User like</span>
-          </li>
-          -->
           <li @click="backToTop" v-show="shouldShowBT">
             <i class="iconfont icon-arrows-4-7" />
             <span>Top</span>
@@ -66,47 +52,6 @@
         </ul>
       </div>
     </div>
-    <footer>
-      <div class="container">
-        <ul class="footerTop">
-          <li>
-            <img
-              src="//yanxuan.nosdn.127.net/e6021a6fcd3ba0af3a10243b7a2fda0d.png"
-              alt=""
-            />
-            <span>Free return and exchange within 30 days</span>
-          </li>
-          <li>
-            <img
-              src="//yanxuan.nosdn.127.net/e09c44e4369232c7dd2f6495450439f1.png"
-              alt=""
-            />
-            <span>And buy and send activation codes</span>
-          </li>
-          <li>
-            <img
-              src="//yanxuan.nosdn.127.net/e72ed4de906bd7ff4fec8fa90f2c63f1.png"
-              alt=""
-            />
-            <span>Game copyright guarantee</span>
-          </li>
-        </ul>
-        <div class="footerBottom">
-          <ul>
-            <li>About us</li>
-            <li>Help center</li>
-            <li>After-sales service</li>
-            <li>Distribution and acceptance</li>
-            <li>Business cooperation</li>
-            <li>Enterprise procurement</li>
-            <li>Open platform</li>
-            <li>The search is recommended</li>
-            <li>link</li>
-          </ul>
-          <p>Loveplay © 2019-2020 all rights reserved:123123</p>
-        </div>
-      </div>
-    </footer>
     <div class="bg"></div>
   </div>
 </template>

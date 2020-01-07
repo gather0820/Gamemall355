@@ -5,8 +5,6 @@
           <slot :name="'item'+(index+1)"></slot>
         </div>
       </div>
-      <div class="prev arrow" @click="prev"><i class="iconfont icon-return" /></div>
-      <div class="next arrow" @click="next"><i class="iconfont icon-enter" /></div>
       <div class="circles">
         <span v-for="(item,index) in len" :key="index" @click="selectPage(index)" :class="curIndex===index?'selected':''"></span>
       </div>

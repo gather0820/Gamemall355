@@ -23,8 +23,7 @@
   },
   "order": {
     "shopping-cart": "购物车",
-    "my-order": "我的订单",
-    "modify-data": "修改资料"
+    "my-order": "我的订单"
   },
   "cart": {
     "info": "The shopping cart is still empty",

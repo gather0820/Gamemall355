@@ -5,12 +5,15 @@
         <el-input
           v-model="goodsForm.goodsName"
           :placeholder="$t('Goods.请输入商品名称')"
-          maxlength="50"
+          maxlength="20"
           show-word-limit
         ></el-input>
       </el-form-item>
       <el-form-item :label="$t('Goods.TemType')">
-        <el-select v-model="goodsForm.temTypeId" :placeholder="$t('Goods.请选择类别')">
+        <el-select
+          v-model="goodsForm.temTypeId"
+          :placeholder="$t('Goods.请选择类别')"
+        >
           <el-option
             v-for="item in types"
             :key="item.id"
@@ -130,7 +133,7 @@ export default {
       goodsForm: {
         goodsName: "",
         initTypeId: "",
-        temTypeId: "",
+        temTypeId: this.$route.query.type ? Number(this.$route.query.type) : "",
         goodsImg: "",
         desc: ""
       },
@@ -147,6 +150,7 @@ export default {
     this.getTypes();
     //新建商品
     if (this.id === "new") {
+      console.log(this.goodsForm);
     } else {
       const res = getGoodsInfo(this.id);
       res

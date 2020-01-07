@@ -226,11 +226,11 @@ export default {
       m: 0,
       s: 0,
       bannnerData: [
-        "https://images.gog.com/4cadd3c498f3793ca319e8d6e822faa3cf7297a827d3849564ff3202864ab674_product_card_v2_mobile_slider_639.jpg",
-        "https://steamcdn-a.akamaihd.net/steam/apps/414700/capsule_616x353.jpg?t=1569852103",
-        "https://steamcdn-a.akamaihd.net/steam/apps/535930/capsule_616x353_alt_assets_7.jpg?t=1576859557",
+        "https://images.gog.com/78485317312e881a175c686eaab8a988202b208942623acba641f35384f8dc12_product_card_v2_mobile_slider_639.jpg",
+        "https://steamcdn-a.akamaihd.net/steam/apps/606880/header.jpg?t=1575302145",
+        "https://steamcdn-a.akamaihd.net/steam/apps/382900/header.jpg?t=1549381929",
         "https://images-1.gog.com/6e36da960c022ae1fe984b4617a326a46d9567afba0b5e0f6046b0cc6c6991a2_bs_logo_big_2x.webp",
-        "https://images.gog.com/78485317312e881a175c686eaab8a988202b208942623acba641f35384f8dc12_product_card_v2_mobile_slider_639.jpg"
+        "https://www.hellblade.com/wp-content/uploads/2018/03/hbcom_buy_link.jpg"
       ]
     };
   },
