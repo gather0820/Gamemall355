@@ -10,15 +10,6 @@ module.exports = {
     assetsSubDirectory: "static",
     assetsPublicPath: "/",
     proxyTable: {
-      // "/socket.io": {
-      //   target: "http://localhost:3000", // target host
-      //   changeOrigin: true, // needed for virtual hosted sites
-      //   logLevel: "debug",
-      //   pathRewrite: {
-      //     //路径重写
-      //     "^/socket.io": "/" // rewrite path
-      //   }
-      // }
     },
 
     // Various Dev Server settings
