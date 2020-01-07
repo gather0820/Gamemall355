@@ -104,7 +104,8 @@ exports.getRepliedMsg = async (req, res) => {
         }
         const reply = await ReplyModel.findOne({
           messageId: msg.id
-        })
+        }) || {}
+        
         messageList.push({
           user: {
             name: user.nickname,

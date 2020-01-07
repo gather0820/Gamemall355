@@ -66,41 +66,6 @@
         </ul>
       </div>
     </div>
-    <!-- <div class="bottomInfo">
-      <div class="container">
-        <div class="service footerItem">
-          <p class="title">客户服务</p>
-          <span><i class="iconfont icon-people_fill" />在线客服</span>
-          <span><i class="iconfont icon-fabulous" />用户反馈</span>
-        </div>
-        <div class="intro footerItem">
-          <p class="title">何为爱玩-游戏商城</p>
-          <p class="intro-p">
-            爱玩-游戏商城原创生活类电商品牌，秉承李宁一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品
-          </p>
-          <div>
-            关注我们：
-            <img
-              src="http://yanxuan.nosdn.127.net/60068701f3a380911f237c26c91b39d0.png"
-              alt=""
-            />
-            <img
-              src="http://yanxuan.nosdn.127.net/031e783d7ee645b6096980d0bf83079b.png"
-              alt=""
-            />
-            <img
-              src="http://yanxuan.nosdn.127.net/0c8759a89cdbd7acf7f2921e6f0fad19.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="code footerItem">
-          <p class="title">扫码下载APP</p>
-          <img src="../../assets/img/code.png" alt="" />
-          <span>下载领1000元新人礼包</span>
-        </div>
-      </div>
-    </div> -->
     <footer>
       <div class="container">
         <ul class="footerTop">

@@ -11,12 +11,7 @@
     <div class="right-menu">
       <el-dropdown class="avatar-container" trigger="hover">
         <div class="avatar-wrapper">
-          <img
-            :src="
-              'https://avatar-static.segmentfault.com/288/089/2880895340-5d89b6312c336_huge256'
-            "
-            class="user-avatar"
-          />
+          <el-avatar icon="el-icon-user-solid" class="user-avatar"></el-avatar>
           <span class="user-name">
             {{ adminName }}<i class="el-icon-caret-bottom el-icon--right"></i>
           </span>
@@ -149,7 +144,7 @@ export default {
           cursor: pointer;
           width: 40px;
           height: 40px;
-          border-radius: 10px;
+
         }
 
         .el-icon-caret-bottom {

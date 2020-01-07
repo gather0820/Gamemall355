@@ -5,7 +5,7 @@
         <el-input
           v-model="goodsForm.goodsName"
           :placeholder="$t('Goods.请输入商品名称')"
-          maxlength="20"
+          maxlength="50"
           show-word-limit
         ></el-input>
       </el-form-item>
