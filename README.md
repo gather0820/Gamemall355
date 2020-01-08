@@ -26,3 +26,4 @@ express/node/jsonwebtoken/socket.io/nodemon/mongodb/nodemailer
 
 The file `admins.json` is backend administrator data and needs to be imported into the database. 
 The file `goodddetails.json` / `goods.json` / `types.json` is the product details, which can be imported as needed.
+(The data is in the folder "data")
