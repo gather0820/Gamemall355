@@ -46,7 +46,7 @@
               v-else-if="item.state === 2"
               @click="confirmReceive(item.id)"
             >
-              confirm receipt
+              Receipt
             </button>
             <button
               v-else-if="item.state === 3 && !item.hasComment"
@@ -54,7 +54,7 @@
                 showPopup(item.id, item.goods.id, item.goods.goodsDetailId)
               "
             >
-              evaluate
+              Evaluate
             </button>
             <span
               class="hasComment"
