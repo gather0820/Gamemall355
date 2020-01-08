@@ -13,22 +13,22 @@
     "Logout": "Logout"
   },
   "login": {
-    "title": "LovePlay-mall",
-    "systemInfo": "back-office system",
-    "account": "account",
+    "title": "Enjoy2Play",
+    "systemInfo": "Back-office system",
+    "account": "Account",
     "pwd": "Password",
-    "login": "login"
+    "login": "Login"
   },
   "modifyUser": {
-    "原密码": "oldPwd:",
-    "新密码": "newPwd:",
-    "确认新密码": "newPwd again:"
+    "原密码": "OldPwd:",
+    "新密码": "NewPwd:",
+    "确认新密码": "NewPwd again:"
   },
   "Member": {
     "UserID": "UserID",
     "Email": "Email",
     "Niickname": "Nickname",
-    "Recipient": "recipient",
+    "Recipient": "Recipient",
     "Address": "Address",
     "Phone": "Phone",
     "MemberInfo": "MemberInfo"
@@ -42,7 +42,7 @@
     "GoodsImg": "GoodsImg",
     "SpecDetail": "SpecDetail",
     "Inventory": "Inventory",
-    "price": "price",
+    "price": "Price",
     "Desc": "Desc",
     "请输入规格名称": "Please enter specification",
     "请输入库存量": "Please enter inventory",
@@ -60,28 +60,28 @@
     "Shipped": "Shipped",
     "Received": "Received",
     "goods-id": "GoodsId",
-    "goods-state": "state",
+    "goods-state": "State",
     "goods": "Goods",
     "goods-amount": "Amount",
     "goods-spec": "Spec",
     "goods-num": "Number",
     "update-time": "Up-Time",
     "noReply": "noReply",
-    "replied": "replied",
-    "reply": "reply",
-    "response": "response",
+    "replied": "Replied",
+    "reply": "Reply",
+    "response": "Response",
     "Message-reply": "Message-reply"
   },
   "public": {
-    "confirm": "confirm",
-    "reset": "reset",
-    "modify": "modify",
-    "delete": "delete",
-    "cancel": "cancel",
-    "edit": "edit",
-    "add": "add",
-    "save": "save",
-    "return": "return"
+    "confirm": "Confirm",
+    "reset": "Reset",
+    "modify": "Modify",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "add": "Add",
+    "save": "Save",
+    "return": "Return"
   },
   "message": {
     "info": "Please enter the correct information"
