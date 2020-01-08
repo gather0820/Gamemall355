@@ -34,7 +34,6 @@
           type="password"
           :placeholder="$t('system.Inputpassword')"
         />
-        /> -->
         <input
           ref="signPhone"
           type="text"

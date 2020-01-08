@@ -22,7 +22,6 @@
         <li v-for="(item, index) in orderList" :key="'order' + item.id">
           <div class="orderHeader">
             <span class="orderTime">{{ item.createtime }}</span>
-            <span class="orderId">{{ $t("cart.orderId") + item.id }}</span>
             <span class="state">{{ tagList[item.state + 1] }}</span>
             <span class="deleteBtn" @click="deleteOrder(item.id)"
               ><i class="iconfont icon-close"
