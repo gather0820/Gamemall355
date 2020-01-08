@@ -17,18 +17,6 @@
             <span style="margint-right:15px"
               >{{ $t("goods.specificae") }}：</span
             >
-            <!-- <Radio
-              v-for="(item, index) in specs"
-              :key="item.id"
-              v-model="temSpecId"
-              :initVal="specs[0].id"
-              radioName="spec"
-              :radioVal="item.id"
-            >
-              <span class="tips" slot="tips">{{
-                item.specName + "(only leave" + item.stockNum + "/part)"
-              }}</span>
-            </Radio> -->
             <el-radio-group v-model="temSpecId">
               <el-radio
                 v-for="(item, index) in specs"
