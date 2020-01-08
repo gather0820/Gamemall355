@@ -58,14 +58,12 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "index.html",
-      // favicon: resolve("../../favicon.ico"),
       inject: true,
       chunks: ["app"]
     }),
     new HtmlWebpackPlugin({
       filename: "admin.html",
       template: "admin.html",
-      // favicon: resolve("../../favicon.ico"),
       inject: true,
       chunks: ["admin"]
     })
