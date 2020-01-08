@@ -22,32 +22,23 @@
         <input
           ref="signEmail"
           type="text"
-          :placeholder="$t('system.请输入注册的邮箱')"
+          :placeholder="$t('system.EnterEmail')"
         />
         <input
           ref="signName"
           type="text"
-          :placeholder="$t('system.请输入昵称')"
+          :placeholder="$t('system.Enternickname')"
         />
         <input
           ref="signPwd"
           type="password"
-          :placeholder="$t('system.请输入密码')"
+          :placeholder="$t('system.Inputpassword')"
         />
-        <!-- <input
-          ref="signRecipient"
-          type="text"
-          :placeholder="$t('system.请输入收件人姓名')"
-        />
-        <input
-          ref="signAddress"
-          type="text"
-          :placeholder="$t('system.请输入收件地址')"
         /> -->
         <input
           ref="signPhone"
           type="text"
-          :placeholder="$t('system.请输入联系电话')"
+          :placeholder="$t('system.Contactnumber')"
         />
         <button @click="signup">{{ $t("system.register") }}</button>
       </div>
