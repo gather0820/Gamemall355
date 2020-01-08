@@ -113,7 +113,7 @@ export default {
   data() {
     return {
       tagList: [
-        this.$t("cart.全部订单"),
+        this.$t("cart.All orders"),
         this.$t("cart.Unpaid"),
         this.$t("cart.Unshipped"),
         this.$t("cart.Delivered"),
