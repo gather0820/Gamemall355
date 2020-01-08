@@ -28,7 +28,7 @@
   "cart": {
     "info": "The shopping cart is still empty",
     "Blurb": "Blurb",
-    "unit-price": "unit-price",
+    "unit-price": "Price",
     "amount": "amount",
     "subtotal": "Total price",
     "operation": "operation",
