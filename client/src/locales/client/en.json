@@ -1,6 +1,6 @@
 {
   "system": {
-    "title": "LovePlay-mall",
+    "title": "Enjoy2Play",
     "info": "Enjoy and Play",
     "account": "Email",
     "pwd": "Password",
@@ -34,11 +34,11 @@
   "cart": {
     "info": "The shopping cart is still empty",
     "Blurb": "Blurb",
-    "unit-price": "unit-price",
+    "unit-price": "Price",
     "amount": "Quantity",
     "subtotal": "Total price",
     "operation": "Operation",
-    "amount-payable": "amount payable",
+    "amount-payable": "Payment amount",
     "orderId": "orderId",
     "All orders": "All orders",
     "Unpaid": "For payment",
@@ -48,7 +48,7 @@
   },
   "user": {
     "headimg": "The avatars",
-    "account": "account",
+    "account": "Account",
     "nickname": "nickname",
     "recipient": "recipient",
     "address": "address",
