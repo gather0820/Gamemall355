@@ -3,7 +3,7 @@
     <div v-if="orderList.length > 0">
       <div class="cartTableHeader">
         <span>{{ $t("cart.Blurb") }}</span>
-        <span>{{ $t("cart.Bluunit-pricerb") }}</span>
+        <span>{{ $t("Price") }}</span>
         <span>{{ $t("cart.amount") }}</span>
         <span>{{ $t("cart.subtotal") }}</span>
         <span>{{ $t("cart.operation") }}</span>
