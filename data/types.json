@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5df63864ace0e742d4749862"},"name":"GOG","id":{"$numberInt":"1"},"createtime":{"$date":{"$numberLong":"1576417380104"}},"updatetime":{"$date":{"$numberLong":"1576417380104"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5df6417c9d9e3618c4f6c7ee"},"name":"WeGame","id":{"$numberInt":"3"},"createtime":{"$date":{"$numberLong":"1576419708574"}},"updatetime":{"$date":{"$numberLong":"1576419708574"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5df6418e9d9e3618c4f6c7ef"},"name":"Epic","id":{"$numberInt":"4"},"createtime":{"$date":{"$numberLong":"1576419726764"}},"updatetime":{"$date":{"$numberLong":"1576419726764"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5df643e49d9e3618c4f6c7f1"},"name":"Steam","id":{"$numberInt":"5"},"createtime":{"$date":{"$numberLong":"1576420324668"}},"updatetime":{"$date":{"$numberLong":"1576420324668"}},"__v":{"$numberInt":"0"}}
