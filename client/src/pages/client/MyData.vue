@@ -2,10 +2,6 @@
   <div class="MyData">
     <ul>
       <li>
-        <span>{{ $t("user.headimg") }}</span>
-        <img :src="headimg" alt="headimg" />
-      </li>
-      <li>
         <span>{{ $t("user.account") }}</span>
         <p>{{ email }}</p>
       </li>
@@ -13,14 +9,6 @@
         <span>{{ $t("user.nickname") }}</span>
         <input type="text" v-model="nickname" />
       </li>
-      <!-- <li>
-        <span>{{ $t("user.recipient") }}</span>
-        <input type="text" v-model="recipient" />
-      </li>
-      <li>
-        <span>{{ $t("user.address") }}</span>
-        <input type="text" class="long" v-model="address" />
-      </li> -->
       <li>
         <span>{{ $t("user.phone") }}</span>
         <input type="text" v-model="phone" />
