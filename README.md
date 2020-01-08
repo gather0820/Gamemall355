@@ -15,9 +15,14 @@ express/node/jsonwebtoken/socket.io/nodemon/mongodb/nodemailer
 
 #### 4.Installation:
 
-4.1 Enter the client directory to execute "`npm install`". 
-  	  Enter the server directory to execute "`npm install`".
-  4.2 Enter the server directory to execute "`npm run start`" (start the api interface)
-  4.3 Enter the client directory to execute "`npm run dev`"
-  4.4 Enter the client directory to execute "`npm run dev:admin`"
-  4.5 front-end："*localhost:8080*";Management side:"*localhost:8081*"
+4.1 Enter the client directory to execute `npm install`. 
+  	  Enter the server directory to execute `npm install`.
+  4.2 Enter the server directory to execute `npm run start` (start the api interface)
+  4.3 Enter the client directory to execute `npm run dev`
+  4.4 Enter the client directory to execute `npm run dev:admin`
+  4.5 front-end：*`localhost:8080`*; Management side:*`localhost:8081`*
+
+#### 5.Mongdo Data：
+
+The file `admins.json` is backend administrator data and needs to be imported into the database. 
+The file `goodddetails.json` / `goods.json` / `types.json` is the product details, which can be imported as needed.
