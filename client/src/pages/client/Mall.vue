@@ -22,9 +22,7 @@
             </el-input>
           </div>
           <template v-if="clientToken">
-            <span class="name"
-              >{{ $t("system.Welcome") }}，{{ clientName }}</span
-            >
+            
             <span @click="navTo('/mall/personal')">{{
               $t("system.Mine")
             }}</span>
