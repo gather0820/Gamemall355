@@ -30,7 +30,7 @@
     "Blurb": "Blurb",
     "unit-price": "unit-price",
     "amount": "amount",
-    "subtotal": "subtotal",
+    "subtotal": "Total price",
     "operation": "operation",
     "amount-payable": "amount payable"
   },
