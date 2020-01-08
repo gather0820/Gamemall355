@@ -12,7 +12,6 @@
               >
                 <img :src="item.user.headimg" alt="" />
                 <div class="info">
-                  <span class="name">{{ item.user.name }}</span>
                   <div class="goods ellipsis">
                     {{ $t("Orders.goods") }}：{{ item.goods.name }}
                   </div>
@@ -39,7 +38,6 @@
               >
                 <img :src="item.user.headimg" alt="" />
                 <div class="info">
-                  <span class="name">{{ item.user.name }}</span>
                   <div class="goods ellipsis">
                     {{ $t("Orders.goods") }}：{{ item.goods.name }}
                   </div>
