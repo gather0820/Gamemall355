@@ -17,10 +17,10 @@ express/node/jsonwebtoken/socket.io/nodemon/mongodb/nodemailer
 
 4.1 In client run `npm install`. 
   	In server run `npm install`.
-  4.2 In server run `npm run start` (start the api interface)
-  4.3 In client run `npm run dev`
-  4.4 In client run `npm run dev:admin`
-  4.5 front-end:*`localhost:8080`*; Management side:*`localhost:8081`*
+4.2 In server run `npm run start` (start the api interface)
+4.3 In client run `npm run dev`
+4.4 In client run `npm run dev:admin`
+4.5 front-end:*`localhost:8080`*; Management side:*`localhost:8081`*
 
 #### 5.Mongdo Data:
 
