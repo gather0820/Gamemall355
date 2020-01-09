@@ -39,10 +39,6 @@ var ModelSchema = new mongoose.Schema(
       type: Number,
       required: [true, 'Required']
     },
-    headimg: {
-      type: String,
-      default: () => 'http://tvax4.sinaimg.cn/crop.0.0.480.480.180/768c39d5ly8fjje1d0teej20dc0dcq35.jpg'
-    },
   },
   {
     timestamps: {

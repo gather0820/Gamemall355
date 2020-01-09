@@ -6,8 +6,8 @@
     "start": "node bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www",
-    "test": "export NODE_ENV=test PORT=3300 && mocha 'test/**/*.test.js' --exit",
-    "cov": "export NODE_ENV=test PORT=3300 && nyc mocha 'test/**/*.test.js' --exit"
+    "test": "SET NODE_ENV=test PORT=3300 && mocha 'test/**/*.test.js' --exit",
+    "cov": "SET NODE_ENV=test PORT=3300 && nyc mocha 'test/**/*.test.js' --exit"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

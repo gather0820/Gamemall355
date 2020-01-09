@@ -1,7 +1,7 @@
 <template>
   <div class="GoodsList container-wrapper-public">
     <div class="sortBox">
-      <span class="title">Sort：</span>
+      <span class="title">Sort:</span>
       <span
         :class="['normal', { selected: sortMode === 0 }]"
         @click="changeSortMode(0)"
