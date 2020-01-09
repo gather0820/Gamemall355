@@ -27,17 +27,8 @@ exports.postEmail = async opt => {
   let mailOptions = {
     from: `${emailBase.hostTitle} <${emailBase.auth.user}>`, //谁发的 who send
     to: opt.email, //发给谁 To whom
-    subject: 'LovePlay-Activation code', //主题是什么 Theme
-    // text: '', //文本内容
-    html //html模板
-
-    //附件信息
-    // attachments: [
-    //   {
-    //     filename: '',
-    //     path: ''
-    //   }
-    // ]
+    subject: 'LovePlay-Activation code', 
+    html 
   }
   return new Promise((resolve, reject) => {
     //发送邮件 Send mail

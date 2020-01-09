@@ -4,7 +4,6 @@ const msgAdmin = require('../controllers/msgAdmin')
 const orderAdmin = require('../controllers/orderAdmin')
 const goodsAdmin = require('../controllers/goodsAdmin')
 
-/* 管理员用户 STAER */
 // 注册 register
 router.post('/api/admin/register', userAdmin.register)
 
@@ -13,11 +12,7 @@ router.post('/api/admin/login', userAdmin.login)
 
 //管理员修改密码 changePasword
 router.post('/api/admin/changePwd', userAdmin.changePwd)
-/* 管理员用户 END */
 
-
-
-/* C端用户 STAER */
 //查询所有用户 check allUser
 router.get('/api/admin/allUser', userAdmin.getAllUser)
 
@@ -26,9 +21,6 @@ router.delete('/api/admin/deleteUser', userAdmin.deleteUser)
 
 //搜索用户 search user
 router.get('/api/admin/searchUser', userAdmin.searchUser)
-/* C端用户 END */
-
-
 
 //查询未回复信息
 router.get('/api/admin/noReplyMsg', msgAdmin.getNoReplyMsg)
@@ -51,8 +43,6 @@ router.post('/api/admin/changeOrder', orderAdmin.changeOrder)
 //删除订单 deleteOrder
 router.delete('/api/admin/deleteOrder', orderAdmin.deleteOrder)
 
-
-/* 管理端商品管理 STAET */
 //增加类目 add type
 router.post('/api/admin/addType', goodsAdmin.addType)
 
@@ -79,6 +69,4 @@ router.post('/api/admin/updateGoods', goodsAdmin.updateGoods)
 
 //删除商品 Delete goods
 router.delete('/api/admin/deleteGoods', goodsAdmin.deleteGoods)
-/* 管理端商品管理 END */
-
 module.exports = router

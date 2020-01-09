@@ -1,7 +1,6 @@
 const router = require('express').Router()
 const user = require('../controllers/user');
 const email = require('./../utils/email')
-// import { postEmail } from './../utils/email'
 
 // 发送邮件 email
 router.post('/api/user/email', email.postEmail)
