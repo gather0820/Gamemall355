@@ -23,7 +23,6 @@ var ModelSchema = new mongoose.Schema(
       unique: true,
       required: [true, 'Required']
     },
-    /*0保密，1男，2女*/
     sex: {
       type: Number,
       default: () => 1,
@@ -48,7 +47,6 @@ var ModelSchema = new mongoose.Schema(
   }
 )
 
-// dietSchema.plugin(mongoosePaginate)
 const UserModel = mongoose.model('User', ModelSchema)
 UserModel.find({ id: { $gt: 0 } })
   .sort({ id: -1 })

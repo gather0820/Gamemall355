@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-// const mongoosePaginate = require('mongoose-paginate');//分页插件
 let counter = 1
 var ModelSchema = new mongoose.Schema(
   {
@@ -27,7 +26,6 @@ var ModelSchema = new mongoose.Schema(
     content: {
       type: String
     },
-    /*打分，一颗星代表20分，最高100分*/
     score: {
       type: Number,
       required: [true, 'Required']
@@ -41,7 +39,6 @@ var ModelSchema = new mongoose.Schema(
   }
 )
 
-// dietSchema.plugin(mongoosePaginate)
 const CommentModel = mongoose.model('Comment', ModelSchema)
 CommentModel.find({ id: { $gt: 0 } })
   .sort({ id: -1 })
