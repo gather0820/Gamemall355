@@ -1,4 +1,4 @@
-import {getLocalItem} from '../util/util';
+import {getLocalItem} from '@/utils';
 const state = {
   //后台管理 back-stage management
   adminToken: getLocalItem("adminToken") ? getLocalItem("adminToken") : null,

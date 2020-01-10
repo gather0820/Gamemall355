@@ -25,6 +25,7 @@ var ModelSchema = new mongoose.Schema(
   }
 )
 
+// dietSchema.plugin(mongoosePaginate)
 const ReplyModel = mongoose.model('Reply', ModelSchema)
 ReplyModel.find({ id: { $gt: 0 } })
   .sort({ id: -1 })

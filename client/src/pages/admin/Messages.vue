@@ -10,10 +10,9 @@
                 :key="'noReply' + item.id"
                 class="clear box-shadow-public"
               >
-                <img :src="item.user.headimg" alt="" />
                 <div class="info">
                   <div class="goods ellipsis">
-                    {{ $t("Orders.goods") }}：{{ item.goods.name }}
+                    {{ $t("Orders.goods") }}:{{ item.goods.name }}
                   </div>
                   <p>{{ item.content }}</p>
                 </div>
@@ -36,14 +35,13 @@
                 :key="'replied' + item.id"
                 class="clear box-shadow-public"
               >
-                <img :src="item.user.headimg" alt="" />
                 <div class="info">
                   <div class="goods ellipsis">
-                    {{ $t("Orders.goods") }}：{{ item.goods.name }}
+                    {{ $t("Orders.goods") }}:{{ item.goods.name }}
                   </div>
                   <p>{{ item.content }}</p>
                   <p class="replyContent">
-                    {{ $t("Orders.response") + "：" + item.replyContent }}
+                    {{ $t("Orders.response") + ":" + item.replyContent }}
                   </p>
                 </div>
                 <div class="operate">
@@ -207,7 +205,6 @@ export default {
         }
         .info {
           display: inline-block;
-          margin-left: 70px;
           max-width: 820px;
           font-size: 13px;
           .name {

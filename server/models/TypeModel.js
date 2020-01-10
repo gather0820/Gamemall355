@@ -21,6 +21,7 @@ var ModelSchema = new mongoose.Schema(
   }
 )
 
+// dietSchema.plugin(mongoosePaginate)
 const TypeModel = mongoose.model('Type', ModelSchema)
 TypeModel.find({ id: { $gt: 0 } })
   .sort({ id: -1 })

@@ -51,13 +51,11 @@
 
 <script>
 import { getAOrder, changeOrder } from "../../api/admin";
-import Radio from "../../components/Radio";
 import NumberInput from "../../components/NumberInput";
 
 export default {
   name: "EditOrders",
   components: {
-    Radio,
     NumberInput
   },
   computed: {
@@ -154,11 +152,6 @@ export default {
         display: inline-block;
         color: @fontDefaultColor;
         font-weight: 600;
-      }
-      .Radio /deep/ input:checked + .tipsBox {
-        &:after {
-          background-color: #337da4;
-        }
       }
       .tips {
         font-weight: normal;

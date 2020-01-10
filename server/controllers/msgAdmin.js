@@ -96,7 +96,7 @@ exports.getRepliedMsg = async (req, res) => {
         let goods = await GoodsModel.findOne({
           id: msg.goodsId
         })
-        //商品已被删除 delete
+        //商品已被删除
         if (!goods) {
           goods = {}
           goods.id = 0
@@ -130,7 +130,7 @@ exports.getRepliedMsg = async (req, res) => {
   }
 }
 
-//回复 replay
+//回复
 exports.reply = async (req, res) => {
   const replyObj = req.body
   try {

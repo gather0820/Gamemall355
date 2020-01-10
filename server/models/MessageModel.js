@@ -20,6 +20,7 @@ var ModelSchema = new mongoose.Schema(
       type: String,
       required: [true, 'Required']
     },
+    /*0未回复，1已回复*/
     state: {
       type: Number,
       default: () => 0,
@@ -34,6 +35,7 @@ var ModelSchema = new mongoose.Schema(
   }
 )
 
+// dietSchema.plugin(mongoosePaginate)
 const MessageModel = mongoose.model('Message', ModelSchema)
 MessageModel.find({ id: { $gt: 0 } })
   .sort({ id: -1 })

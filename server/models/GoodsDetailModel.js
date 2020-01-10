@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+// const mongoosePaginate = require('mongoose-paginate');//分页插件
 let counter = 1
 var ModelSchema = new mongoose.Schema(
   {
@@ -33,6 +34,7 @@ var ModelSchema = new mongoose.Schema(
   }
 )
 
+// dietSchema.plugin(mongoosePaginate)
 const GoodsDetailModel = mongoose.model('GoodsDetail', ModelSchema)
 GoodsDetailModel.find({ id: { $gt: 0 } })
   .sort({ id: -1 })

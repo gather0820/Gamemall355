@@ -6,8 +6,8 @@
     "start": "node bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www",
-    "test": "mocha --recursive",
-    "cov": "SET NODE_ENV=test PORT=3300 && nyc mocha 'test/**/*.test.js' --exit"
+    "test": "mocha 'test/**/*.test.js' --exit",
+    "ci-test": "mocha 'test/index.test.js' --exit"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -37,6 +37,15 @@
     "supertest": "^4.0.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
     "nodemon": "^1.19.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }

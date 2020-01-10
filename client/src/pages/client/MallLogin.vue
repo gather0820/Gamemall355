@@ -47,7 +47,7 @@
 
 <script>
 import { mapMutations } from "vuex";
-import { getClientSize } from "../../util/util";
+import { getClientSize } from "@/utils";
 import { login, signup } from "@/api/client";
 import { isEmpty } from "@/utils";
 import { validateEmail, validatePhone } from "@/utils/validate";

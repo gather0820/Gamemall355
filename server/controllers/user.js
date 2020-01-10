@@ -182,6 +182,7 @@ exports.updatePwd = async (req, res) => {
       res.send(Util.returnSuccess({ msg: 'Password change successful!' || '修改密码成功！' }))
     }
   } catch (e) {
+    //发生错误 发生错误
     console.log(e)
     res.send(Util.returnMsg( 'Error modifying password' || '修改密码出错'))
   }

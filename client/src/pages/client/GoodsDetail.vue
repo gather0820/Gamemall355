@@ -121,19 +121,6 @@
           </ul>
         </div>
       </section>
-      <section class="typeGoods rightContainer">
-        <div class="title">Similar goods</div>
-        <ul class="list">
-          <GoodsItem
-            v-for="(item, index) in filterList"
-            :key="+item.id"
-            :id="item.id"
-            :img="item.img"
-            :name="item.name"
-            :price="item.price"
-          />
-        </ul>
-      </section>
     </div>
   </div>
 </template>
@@ -149,14 +136,12 @@ import {
   getGoodsList
 } from "../../api/client";
 import NumberInput from "../../components/NumberInput";
-import Radio from "../../components/Radio";
 import GoodsItem from "../../components/GoodsItem";
 
 export default {
   name: "GoodsDetail",
   components: {
     NumberInput,
-    Radio,
     GoodsItem
   },
   computed: {

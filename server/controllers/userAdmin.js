@@ -21,14 +21,18 @@ exports.register = async (req, res, next) => {
   }
 }
 
-//管理员登录 admin login
+//管理员登录
 exports.login = async (req, res) => {
   const admin = req.body
   try {
+    //看该账号是否已经注册
     const accountSigned = await AdminModel.findOne({
+      // where: {
       account: admin.account
+      // }
     })
 
+    //如果不存在
     if (!accountSigned) {
       res.send(
         Util.returnMsg(
@@ -38,13 +42,14 @@ exports.login = async (req, res) => {
       )
       return
     }
+    //已经存在
     else {
-      //密码不对 wrong pasword
+      //密码不对
       if (accountSigned.pwd !== admin.pwd) {
         res.send(Util.returnMsg('Incorrect password' || '密码不正确'))
         return
       }
-      //密码正确 creat password
+      //密码正确
       else {
         const token = jwt.sign(accountSigned.id, 'chambers')
         res.send(
@@ -64,6 +69,7 @@ exports.login = async (req, res) => {
   }
 }
 
+//管理员修改密码
 exports.changePwd = async (req, res) => {
   const pwdObj = req.body
   pwdObj.adminToken = jwt.decode(pwdObj.adminToken)

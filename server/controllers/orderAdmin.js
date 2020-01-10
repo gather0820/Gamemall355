@@ -8,7 +8,7 @@ const socketio = require('./../socketio')
 
 const Util = require('./../utils')
 
-//获得订单 get order
+//获得订单
 exports.getOrders = async (req, res) => {
   /*-1全部，0未付款，1已付款未发货，2已发货未确认收到，3确认到货订单完成*/
   const state = Number(req.query.state)

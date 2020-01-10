@@ -1,4 +1,4 @@
-import { getLocalItem, setLocalItem } from "../../util/util";
+import { getLocalItem, setLocalItem } from "@/utils";
 import * as types from "./../mutation-types";
 
 const state = {

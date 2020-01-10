@@ -22,7 +22,7 @@
             </el-input>
           </div>
           <template v-if="clientToken">
-            
+
             <span @click="navTo('/mall/personal')">{{
               $t("system.Mine")
             }}</span>
@@ -56,7 +56,7 @@
 
 <script>
 import { mapMutations, mapGetters } from "vuex";
-import { getClientSize, backToTop } from "../../util/util";
+import { getClientSize, backToTop } from "@/utils";
 
 import NoticeList from "../../components/NoticeList";
 import TipsInput from "../../components/TipsInput";

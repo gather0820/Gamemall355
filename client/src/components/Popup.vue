@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import {getClientSize} from '../util/util';
+import {getClientSize} from '@/utils';
 export default {
   name: 'Popup',
   props:{

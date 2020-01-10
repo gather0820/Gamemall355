@@ -325,11 +325,6 @@ export default {
       .verTop {
         vertical-align: top;
       }
-      .Radio /deep/ input:checked + .tipsBox {
-        &:after {
-          background-color: #337da4;
-        }
-      }
       .tips {
         font-weight: normal;
         width: auto;

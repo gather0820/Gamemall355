@@ -93,7 +93,7 @@ exports.getGoodsInfo = async (req, res) => {
   }
 }
 
-//获得商品详情页问答区数据   goods question
+//获得商品详情页问答区数据
 exports.getGoodsMsg = async (req, res) => {
   const id = req.query.id
   try {
@@ -152,7 +152,7 @@ exports.getGoodsMsg = async (req, res) => {
   }
 }
 
-//提问商品  ASK
+//提问商品
 exports.askGoodsMsg = async (req, res) => {
   const token = req.body.token
   try {
@@ -168,7 +168,7 @@ exports.askGoodsMsg = async (req, res) => {
   }
 }
 
-//加入购物车或立即购买 cart or buy
+//加入购物车或立即购买
 exports.addOrder = async (req, res) => {
   const token = req.body.token
   try {
@@ -201,13 +201,13 @@ exports.addOrder = async (req, res) => {
   }
 }
 
-//获得用户订单 get user oder
+//获得用户订单
 exports.getOrderByState = async (req, res) => {
   const state = Number(req.query.state)
   const userId = jwt.verify(req.query.token, 'chambers')
   try {
     let orders
-    //查全部的 all
+    //查全部的
     if (state === -1) {
       orders = await OrderModel.find(
         {

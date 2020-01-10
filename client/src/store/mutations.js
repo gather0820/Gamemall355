@@ -1,5 +1,5 @@
 import * as types from './mutation-types';
-import {setLocalItem} from '../util/util';
+import {setLocalItem} from '@/utils';
 
 const mutations = {
 	//管理员 Administrator

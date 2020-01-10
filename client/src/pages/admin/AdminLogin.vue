@@ -17,7 +17,7 @@
 
 <script>
 import { mapMutations, mapActions, mapGetters } from "vuex";
-import { getClientSize } from "../../util/util";
+import { getClientSize } from "@/utils";
 import { login } from "../../api/admin";
 import { setup as languageSetup } from "@/locales/admin";
 

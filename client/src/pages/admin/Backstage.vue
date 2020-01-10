@@ -28,7 +28,7 @@
 
 <script>
 import { mapState,mapMutations } from 'vuex';
-import {getClientSize} from '../../util/util';
+import {getClientSize} from '@/utils';
 export default {
   name: 'Backstage',
   data(){

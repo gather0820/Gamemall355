@@ -30,7 +30,7 @@
           >
             <GoodsItem
               v-for="(item, index) in goodsList"
-              :style="{ marginRight: (index + 1) % 4 === 0 ? '0px' : '10px' }"
+              :style="{ marginRight: (index + 1) % 4 === 0 ? '0px' : '20px' }"
               :key="+item.id"
               :id="item.id"
               :img="item.img"
@@ -40,7 +40,7 @@
           </ul>
         </Slick>
       </section>
-     
+
       <section
         class="typeSection section"
         v-for="(item, index) in typeList.slice(1)"
@@ -72,17 +72,15 @@
 <script>
 import { getTypes, getGoodsList } from "../../api/client";
 import SectionHeader from "../../components/SectionHeader";
-import ZoomImg from "../../components/ZoomImg";
 import GoodsItem from "../../components/GoodsItem";
 import Slick from "../../components/Slick";
 
-import { getClientSize, getScrollWidth } from "../../util/util";
+import { getClientSize, getScrollWidth } from "@/utils";
 
 export default {
   name: "MallIndex",
   components: {
     SectionHeader,
-    ZoomImg,
     GoodsItem,
     Slick
   },
@@ -383,33 +381,6 @@ export default {
         }
       }
       .right {
-        .ZoomImg {
-          width: 100%;
-          height: 49%;
-          .makerInfo {
-            p {
-              text-align: left;
-              margin-left: 30px;
-            }
-            hr {
-              width: 60px;
-              position: relative;
-              left: -122px;
-            }
-            .large {
-              margin-top: 30px;
-              margin-bottom: 10px;
-              font-size: 20px;
-            }
-            .small {
-              margin-top: 10px;
-              font-size: 12px;
-            }
-          }
-          &:first-child {
-            margin-bottom: 7px;
-          }
-        }
       }
     }
   }
