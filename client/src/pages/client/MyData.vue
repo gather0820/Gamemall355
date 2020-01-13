@@ -191,8 +191,6 @@ export default {
         text-align: center;
         border-bottom: 2px solid @thirdColor;
       }
-      .long {
-      }
       button {
         background-color: white;
         border: 1px solid @thirdColor;
