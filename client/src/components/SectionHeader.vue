@@ -4,7 +4,6 @@
         <h3>{{title}}</h3>
         <span>{{tips}}</span>
       </div>
-     <!-- <span class="right">{{moreText}}</span>-->
     </header>
 </template>
 

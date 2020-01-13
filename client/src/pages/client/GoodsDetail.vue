@@ -31,7 +31,6 @@
           </div>
           <div class="infoBox">
             <span>{{ $t("goods.number") }}：</span>
-            <!-- <NumberInput v-model="num" :min="1" :max="temStockNum" /> -->
             <el-input-number
               v-model="num"
               :min="1"

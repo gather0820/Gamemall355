@@ -28,7 +28,6 @@
                 :max="999"
               />
             </span>
-            <!-- <input @change="numberChange(item.id)" type="text" v-model="item.temGoodsNum" min="1" class="numInput" /> -->
             <span class="amount">{{ "￥" + item.amount }}</span>
             <button @click="deleteOrder(item.id)">
               {{ $t("public.delete") }}

@@ -7,7 +7,6 @@
       v-loading="loading"
     >
       <el-tab-pane v-for="item in orderModule" :key="item.typeName">
-        <!-- <i class="el-icon-s-order"></i> -->
         <span slot="label">{{ item.typeName }}</span>
         <el-table
           class="table-box-pullic"
@@ -44,18 +43,6 @@
             prop="user.nickname"
           >
           </el-table-column>
-          <!-- <el-table-column
-            show-overflow-tooltip
-            :label="$t('Member.Recipient')"
-            prop="user.name"
-          >
-          </el-table-column>
-          <el-table-column
-            show-overflow-tooltip
-            :label="$t('Member.Address')"
-            prop="user.address"
-          >
-          </el-table-column> -->
           <el-table-column
             show-overflow-tooltip
             :label="$t('Member.Phone')"

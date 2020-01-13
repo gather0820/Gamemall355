@@ -25,20 +25,6 @@
           prop="nickname"
         >
         </el-table-column>
-        <!-- <el-table-column show-overflow-tooltip label="性别" prop="sex">
-        </el-table-column> -->
-        <!-- <el-table-column
-          show-overflow-tooltip
-          :label="$t('Member.Recipient')"
-          prop="recipient"
-        >
-        </el-table-column>
-        <el-table-column
-          show-overflow-tooltip
-          :label="$t('Member.Address')"
-          prop="address"
-        >
-        </el-table-column> -->
         <el-table-column
           show-overflow-tooltip
           :label="$t('Member.Phone')"
@@ -58,7 +44,6 @@
       </el-table>
     </div>
 
-    <!-- user edit -->
     <el-dialog
       :title="$t('Member.MemberInfo')"
       :visible.sync="editUserFormVisible"
@@ -78,21 +63,6 @@
             autocomplete="off"
           ></el-input>
         </el-form-item>
-        <!-- <el-form-item label="性别">
-          <el-input v-model="editUserForm.sex" autocomplete="off"></el-input>
-        </el-form-item> -->
-        <!-- <el-form-item :label="$t('Member.Recipient')">
-          <el-input
-            v-model="editUserForm.recipient"
-            autocomplete="off"
-          ></el-input>
-        </el-form-item>
-        <el-form-item :label="$t('Member.Address')">
-          <el-input
-            v-model="editUserForm.address"
-            autocomplete="off"
-          ></el-input>
-        </el-form-item> -->
         <el-form-item :label="$t('Member.Phone')">
           <el-input
             v-model="editUserForm.phone"
